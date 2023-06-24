@@ -1,8 +1,7 @@
 import telebot
+import os
 
-MIMIC_BOT_TOKEN = "beveryveryquiet"
-
-mimic_bot = telebot.TeleBot(MIMIC_BOT_TOKEN)
+mimic_bot = telebot.TeleBot(os.environ.get("MIMIC_BOT_TOKEN"))
 
 @mimic_bot.message_handler(func=lambda msg: True)
 def text_mimic(message):
