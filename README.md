@@ -1,1 +1,1 @@
-((https://github.com/skippyadler/tgbot/blob/main/mimicbot.py code for @SuptechieDuplicateBot))
+[code for @SuptechieDuplicateBot](https://github.com/skippyadler/tgbot/blob/main/mimicbot.py)
